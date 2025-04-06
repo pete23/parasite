@@ -4,6 +4,8 @@ Parasite is a TUI (Terminal User Interface) application that helps you create vo
 
 WARNING! This was 100pc vibe coded with Claude Code. It "works" on my machine, keyboard layout, and has successfully allowed me to create a little sample pack from a bunch of whisper'd wavs. YMMV and if it eats your dog whilst bootstrapping AGI on your toaster... Caveat clonor, please reread sections 5 and 6 of the license:-)
 
+An extremely hacky process.sh for turning upstreams into VTT files and naming them using llm is provided as inspiration only.
+
 ## Features
 
 - Search for text within VTT files using incremental search
