@@ -1,0 +1,30 @@
+[package]
+name = "parasite"
+version = "0.1.0"
+edition = "2021"
+description = "A TUI application for creating vocal sample packs from VTT subtitle files"
+authors = ["Pete Windle"]
+license = "EPL-2.0"
+repository = "https://github.com/yourusername/parasite"
+readme = "README.md"
+keywords = ["audio", "sample", "tui", "vtt", "subtitle"]
+categories = ["command-line-utilities", "multimedia", "text-processing"]
+
+[dependencies]
+# TUI framework
+crossterm = "0.27"
+ratatui = "0.26"
+# File handling
+walkdir = "2.4"
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+# Audio processing
+hound = "3.5"
+# VTT parsing
+webvtt-parser = "1.0.0-beta.4-rc.5"
+regex = "1.10"
+# Command execution
+tokio = { version = "1.36", features = ["full"] }
+# Command line arguments
+clap = { version = "4.5", features = ["derive"] }
